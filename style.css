@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background: #e8f5f3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #2c8279;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    background: url('forest.png') no-repeat center top;
+    padding-top: 120px; /* Espacio para el logo */
+    background-size: 100px auto;
+}
+
+.header h1 {
+    color: #1a5751;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1a5751;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #2c8279;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #1a5751;
+    box-shadow: 0 0 5px rgba(44, 130, 121, 0.3);
+}
+
+button {
+    background: #2c8279;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+    min-width: 200px;
+    font-size: 1.1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #1a5751;
+}
+
+.alert {
+    padding: 20px;
+    margin: 20px auto 30px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 80%;
+    font-size: 1.1em;
+    animation: fadeIn 0.5s ease-in;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.alert-success {
+    background: #e8f5f3;
+    border-left: 5px solid #2c8279;
+    color: #1a5751;
+}
+
+.alert-error {
+    background: #ffe8e8;
+    border-left: 5px solid #d85151;
+    color: #933;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.status {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f0f9f7;
+    border-radius: 4px;
+    border: 1px solid #2c8279;
+}
+
+.url-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #2c8279;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+a {
+    color: #2c8279;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1a5751;
+    text-decoration: underline;
+}
