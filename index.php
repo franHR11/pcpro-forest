@@ -236,5 +236,7 @@ $config['crawl_timeout'] = intval($config['crawl_timeout'] ?? 3600);
         endif;
         ?>
     </div>
+    <script src="https://aurora.pcprogramacion.es/tracking/script.js"></script>
 </body>
+
 </html>
